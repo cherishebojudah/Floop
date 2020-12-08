@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.txt-primary {
+    color: #ff9a17;
+}
+
+.txt-white {
+    color: #ffffff;
+}
+
+.bg-primary {
+    background-color: #ff9a17;
+}
+
+.bg-secondary {
+    background-color: #e17f00;
+}
+
+/* .bg-img {
+    background-image: url(/img/hero-img.jpg);
+    background-repeat: no-repeat;
+   background-size: 100%;
+   background-position: center;
+   object-fit: contain;
+} */
+
+button {
+    border: none;
+}
+
+.border-rnd {
+    border-radius: .25rem;
+}
+
+.line-ht-default {
+    line-height: 1.6;
+}
+
+.word-spc-default {
+    word-spacing: 0.12rem;
+}
+
+.ht-auto {
+    height: 4rem;
+}
+
+/* positioning */
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.txt-left {
+    text-align: left;
+}
+
+.txt-md {
+    font-size: 1.2rem;
+}
+
+.txt-lg {
+    font-size: 2.2rem;
+}
+
+/* spacing */
+.w-40 {
+    width: 40%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.p-1 {
+    padding: 1rem;
+}
+
+.px-1 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.px-2 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+}
+
+.py-1 {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.pb-1 {
+    padding-bottom: 1rem;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+.pr-6 {
+    padding-right: 6rem;
+}
+
+.mx-1 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.my-2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.mb-1 {
+    margin-top: 1rem;
+}
